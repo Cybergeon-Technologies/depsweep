@@ -13,21 +13,21 @@ depsweep finds both, in one pass, with no setup beyond having a `package.json`.
 ## Install
 
 ```bash
-npm install --save-dev depsweep
+npm install --save-dev depsweep-cli
 ```
 
 Or run it without installing:
 
 ```bash
-npx depsweep .
+npx depsweep-cli .
 ```
 
 ## Usage
 
 ```bash
-depsweep              # scan the current directory
-depsweep ./packages/api
-depsweep . --json     # machine-readable output, for scripting
+npx depsweep-cli              # scan the current directory
+npx depsweep-cli ./packages/api
+npx depsweep-cli . --json     # machine-readable output, for scripting
 ```
 
 ```
