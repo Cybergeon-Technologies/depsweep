@@ -1,5 +1,5 @@
 {
-  "name": "depsweep",
+  "name": "depsweep-cli",
   "version": "1.0.0",
   "description": "Find unused and undeclared dependencies in a JS/Node project. Zero dependencies, no config required.",
   "bin": {
