@@ -1,0 +1,30 @@
+{
+  "name": "depsweep",
+  "version": "1.0.0",
+  "description": "Find unused and undeclared dependencies in a JS/Node project. Zero dependencies, no config required.",
+  "bin": {
+    "depsweep": "bin/depsweep.js"
+  },
+  "main": "lib/analyze.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "dependencies",
+    "unused",
+    "devtools",
+    "package.json",
+    "bundle-size",
+    "static-analysis"
+  ],
+  "license": "MIT",
+  "author": "Cybergeon Technologies",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cybergeon-Technologies/depsweep.git"
+  }
+}
